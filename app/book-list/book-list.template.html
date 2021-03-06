@@ -1,5 +1,11 @@
 <ul class="books">
   <li ng-repeat="book in $ctrl.books">
-    {{book.title}} by {{book.authorFirstName}} {{book.authorLastName}}
+    <div>{{book.title}}</div>
+    <div>
+      <span>{{book.authorFirstName}}</span><span>{{book.authorLastName}}</span>
+    </div>
+    <div>{{book.finished}}</div>
+    <div>{{book.type}}</div>
+    <div>{{book.pages}}</div>
   </li>
 </ul>

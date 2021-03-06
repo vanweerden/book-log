@@ -1,38 +1,128 @@
 [
   {
-    "id": 1,
-    "title":  "Book 1",
-    "authorFirstName": "John",
-    "authorLastName": "Doe",
+    "id": "1",
+    "title": "The Lexicographers Dilemma",
+    "authorFirstName": "Jack",
+    "authorLastName": "Lynch",
     "finished": "2020-01-07",
-    "type": "fiction",
-    "pages": 326
-  },
-  {
-    "id": 2,
-    "title":  "Book 2",
-    "authorFirstName": "Jane",
-    "authorLastName": "Doe",
-    "finished": "2020-01-14",
     "type": "non-fiction",
-    "pages": 400
+    "pages": "326"
   },
   {
-    "id": 3,
-    "title":  "Book 3",
-    "authorFirstName": "Foo",
-    "authorLastName": "Bar",
-    "finished": "2020-01-21",
+    "id": "2",
+    "title": "Thank You Jeeves",
+    "authorFirstName": "P.G.",
+    "authorLastName": "Wodehouse",
+    "finished": "2020-01-18",
     "type": "fiction",
-    "pages": 50
+    "pages": "263"
   },
   {
-    "id": 4,
-    "title":  "Book 4",
-    "authorFirstName": "Baz",
-    "authorLastName": "Foo",
-    "finished": "2020-02-14",
+    "id": "3",
+    "title": "On the Shortness of Life",
+    "authorFirstName": "",
+    "authorLastName": "Seneca",
+    "finished": "2020-02-02",
+    "type": "non-fiction",
+    "pages": "106"
+  },
+  {
+    "id": "4",
+    "title": "The Social Animal",
+    "authorFirstName": "David",
+    "authorLastName": "Brooks",
+    "finished": "2020-03-13",
+    "type": "non-fiction",
+    "pages": "448"
+  },
+  {
+    "id": "5",
+    "title": "Hard-Boiled Wonderland and the End of the World",
+    "authorFirstName": "Haruki",
+    "authorLastName": "Murakami",
+    "finished": "2020-04-05",
     "type": "fiction",
-    "pages": 900
+    "pages": "418"
+  },
+  {
+    "id": "6",
+    "title": "ドラゴンボ－ル 21",
+    "authorFirstName": "Akira",
+    "authorLastName": "Toriyama",
+    "finished": "2020-04-23",
+    "type": "fiction",
+    "pages": "192"
+  },
+  {
+    "id": "21",
+    "title": "Northern Lights",
+    "authorFirstName": "Philip",
+    "authorLastName": "Pullman",
+    "finished": "2020-05-29",
+    "type": "fiction",
+    "pages": "399"
+  },
+  {
+    "id": "22",
+    "title": "ドラゴンボ－ル 22",
+    "authorFirstName": "Akira",
+    "authorLastName": "Toriyama",
+    "finished": "2020-05-08",
+    "type": "fiction",
+    "pages": "192"
+  },
+  {
+    "id": "25",
+    "title": "Deep Work",
+    "authorFirstName": "Cal",
+    "authorLastName": "Newport",
+    "finished": "2020-07-08",
+    "type": "non-fiction",
+    "pages": "304"
+  },
+  {
+    "id": "26",
+    "title": "Endymion",
+    "authorFirstName": "Dan",
+    "authorLastName": "Simmons",
+    "finished": "2020-07-18",
+    "type": "fiction",
+    "pages": "578"
+  },
+  {
+    "id": "29",
+    "title": "So Good They Can't Ignore You",
+    "authorFirstName": "Cal",
+    "authorLastName": "NewPort",
+    "finished": "2020-07-24",
+    "type": "non-fiction",
+    "pages": "275"
+  },
+  {
+    "id": "30",
+    "title": "Kafka on the Shore",
+    "authorFirstName": "Haruki",
+    "authorLastName": "Murakami",
+    "finished": "2020-08-15",
+    "type": "fiction",
+    "pages": "505"
+  },
+  {
+    "id": "31",
+    "title": "Apology",
+    "authorFirstName": "",
+    "authorLastName": "Plato",
+    "finished": "2020-09-25",
+    "type": "non-fiction",
+    "pages": 24
+  },
+  {
+    "id": "32",
+    "title": "Crito",
+    "authorFirstName": "",
+    "authorLastName": "Plato",
+    "finished": "2020-09-18",
+    "type": "non-fiction",
+    "pages": 13
   }
 ]
