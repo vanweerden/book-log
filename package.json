@@ -1,0 +1,29 @@
+{
+  "name": "ng-book-list",
+  "version": "1.0.0",
+  "description": "A simple AngularJS app that displays books that I have read",
+  "main": "index.js",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "http-server": "^0.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanweerden/book-log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanweerden/book-log/issues"
+  },
+  "homepage": "https://github.com/vanweerden/book-log#readme",
+  "dependencies": {
+    "angular": "^1.8.2"
+  },
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "postinstall": "npm run copy-libs",
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist}/**/*\" app/lib -C"
+  }
+}

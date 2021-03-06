@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title":  "Book 1",
+    "authorFirstName": "John",
+    "authorLastName": "Doe",
+    "finished": "2020-01-07",
+    "type": "fiction",
+    "pages": 326
+  },
+  {
+    "id": 2,
+    "title":  "Book 2",
+    "authorFirstName": "Jane",
+    "authorLastName": "Doe",
+    "finished": "2020-01-14",
+    "type": "non-fiction",
+    "pages": 400
+  },
+  {
+    "id": 3,
+    "title":  "Book 3",
+    "authorFirstName": "Foo",
+    "authorLastName": "Bar",
+    "finished": "2020-01-21",
+    "type": "fiction",
+    "pages": 50
+  },
+  {
+    "id": 4,
+    "title":  "Book 4",
+    "authorFirstName": "Baz",
+    "authorLastName": "Foo",
+    "finished": "2020-02-14",
+    "type": "fiction",
+    "pages": 900
+  }
+]
