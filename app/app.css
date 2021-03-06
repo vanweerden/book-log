@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.header,
+.books {
+  list-style: none;
+}
+
+.header,
+.books li {
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 4em;
+  padding: 1em;
+}
+
+.header li {
+  font-weight: bold;
+}
+
+.wide-field {
+  flex-grow: 2;
+}
+
+.field {
+  padding: 0 0.5em;
+  width: 10em;
+}
+
+.clickable {
+  cursor: pointer;
+}

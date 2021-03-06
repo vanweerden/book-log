@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" ng-app="booklogApp">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Andrew's Book Log</title>
+    <link rel="stylesheet" href="app.css" />
     <script src="lib/angular/angular.js"></script>
     <script src="app.module.js"></script>
     <!-- <script src="app.config.js"></script> -->
@@ -10,6 +11,10 @@
     <script src="book-list/book-list.component.js"></script>
   </head>
   <body>
-    <book-list></book-list>
+    <div class="page">
+      <div class="container">
+        <book-list></book-list>
+      </div>
+    </div>
   </body>
 </html>
