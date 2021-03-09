@@ -1,31 +1,53 @@
 <ul class="header">
-  <li class="clickable field wide-field" ng-click="$ctrl.setOrderProp('title')">
+  <li
+    class="clickable field title-column"
+    ng-click="$ctrl.setOrderProp('title')"
+  >
     Title
-    <span ng-show="$ctrl.orderProp == 'title' || $ctrl.orderProp == '-title'">
+    <span
+      class="arrow"
+      ng-show="$ctrl.orderProp == 'title' || $ctrl.orderProp == '-title'"
+    >
       {{$ctrl.arrow}}
     </span>
   </li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('authorLastName')">
-    Author<span
+  <li
+    class="clickable field author-column"
+    ng-click="$ctrl.setOrderProp('authorLastName')"
+  >
+    Author
+    <span
+      class="arrow"
       ng-show="$ctrl.orderProp == 'authorLastName' || $ctrl.orderProp == '-authorLastName'"
     >
       {{$ctrl.arrow}}</span
     >
   </li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('finished')">
+  <li
+    class="clickable field date-column"
+    ng-click="$ctrl.setOrderProp('finished')"
+  >
     Date Finished<span
+      class="arrow"
       ng-show="$ctrl.orderProp == 'finished' || $ctrl.orderProp == '-finished'"
     >
       {{$ctrl.arrow}}</span
     >
   </li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('type')">
-    Type<span ng-show="$ctrl.orderProp == 'type' || $ctrl.orderProp == '-type'">
+  <li class="clickable field type-column" ng-click="$ctrl.setOrderProp('type')">
+    Type<span
+      class="arrow"
+      ng-show="$ctrl.orderProp == 'type' || $ctrl.orderProp == '-type'"
+    >
       {{$ctrl.arrow}}</span
     >
   </li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('pages')">
+  <li
+    class="clickable field pages-column"
+    ng-click="$ctrl.setOrderProp('pages')"
+  >
     Pages<span
+      class="arrow"
       ng-show="$ctrl.orderProp == 'pages' || $ctrl.orderProp == '-pages'"
     >
       {{$ctrl.arrow}}</span
@@ -34,12 +56,13 @@
 </ul>
 <ul class="books">
   <li ng-repeat="book in $ctrl.books | orderBy:$ctrl.orderProp" class="book">
-    <div class="field wide-field">{{book.title}}</div>
-    <div class="field">
-      <span>{{book.authorFirstName}}</span> <span>{{book.authorLastName}}</span>
+    <div class="field title-column">{{book.title}}</div>
+    <div class="field author-column">
+      <span>{{book.authorFirstName}}</span>
+      <span>{{book.authorLastName}}</span>
     </div>
-    <div class="field">{{book.finished | date}}</div>
-    <div class="field">{{book.type}}</div>
-    <div class="field">{{book.pages}}</div>
+    <div class="field date-column">{{book.finished | date}}</div>
+    <div class="field type-column">{{book.type}}</div>
+    <div class="field pages-column">{{book.pages}}</div>
   </li>
 </ul>

@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.9em;
 }
 
 .page {
@@ -12,6 +19,7 @@
 
 .container {
   width: 80%;
+  max-width: 900px;
 }
 
 .header,
@@ -24,23 +32,43 @@
   border-top: 1px solid black;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 4em;
-  padding: 1em;
+  padding: 3em 1em;
 }
 
 .header li {
   font-weight: bold;
 }
 
-.wide-field {
-  flex-grow: 2;
+.field {
+  padding: 0 1em;
 }
 
-.field {
-  padding: 0 0.5em;
+.title-column {
+  width: 20em;
+}
+
+.author-column {
   width: 10em;
+}
+
+.date-column {
+  width: 9em;
+}
+
+.type-column {
+  width: 6em;
+}
+
+.pages-column {
+  width: 4em;
 }
 
 .clickable {
   cursor: pointer;
+}
+
+.arrow {
+  font-size: 0.7em;
 }
