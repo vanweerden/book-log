@@ -50,7 +50,7 @@
     "authorFirstName": "Akira",
     "authorLastName": "Toriyama",
     "finished": "2020-04-23",
-    "type": "fiction",
+    "type": "manga",
     "pages": "192"
   },
   {
@@ -68,7 +68,7 @@
     "authorFirstName": "Akira",
     "authorLastName": "Toriyama",
     "finished": "2020-05-08",
-    "type": "fiction",
+    "type": "manga",
     "pages": "192"
   },
   {
@@ -124,5 +124,149 @@
     "finished": "2020-09-18",
     "type": "non-fiction",
     "pages": 13
+  },
+  {
+    "id": "33",
+    "title": "The Last Wish",
+    "authorFirstName": "Andrzej",
+    "authorLastName": "Sapkowski",
+    "finished": "2020-08-27",
+    "type": "fiction",
+    "pages": 388
+  },
+  {
+    "id": "34",
+    "title": "Sword of Destiny",
+    "authorFirstName": "Andrzej",
+    "authorLastName": "Sapkowski",
+    "finished": "2020-10-08",
+    "type": "fiction",
+    "pages": 384
+  },
+  {
+    "id": "35",
+    "title": "Jim Butcher's Dresden Files: Ghoul Goblin",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-10-24",
+    "type": "comic",
+    "pages": 152
+  },
+  {
+    "id": "36",
+    "title": "Storm Front",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-10-26",
+    "type": "fiction",
+    "pages": 341
+  },
+  {
+    "id": "37",
+    "title": "Fool Moon",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-10-29",
+    "type": "fiction",
+    "pages": 391
+  },
+  {
+    "id": "38",
+    "title": "Grave Peril",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-11-04",
+    "type": "fiction",
+    "pages": 426
+  },
+  {
+    "id": "39",
+    "title": "Summer Knight",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-11-12",
+    "type": "fiction",
+    "pages": 405
+  },
+  {
+    "id": "40",
+    "title": "Death Masks",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-11-19",
+    "type": "fiction",
+    "pages": 408
+  },
+  {
+    "id": "41",
+    "title": "Dead Beat",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-12-06",
+    "type": "fiction",
+    "pages": 498
+  },
+  {
+    "id": "42",
+    "title": "The Greatest Show on Earth: The Evidence for Evolution",
+    "authorFirstName": "Richard",
+    "authorLastName": "Dawkins",
+    "finished": "2020-12-06",
+    "type": "non-fiction",
+    "pages": 498
+  },
+  {
+    "id": "43",
+    "title": "Proven Guilty",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-12-17",
+    "type": "fiction",
+    "pages": 520
+  },
+  {
+    "id": "44",
+    "title": "White Night",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-12-24",
+    "type": "fiction",
+    "pages": 454
+  },
+  {
+    "id": "45",
+    "title": "Theaetetus",
+    "authorFirstName": "Plato",
+    "authorLastName": "",
+    "finished": "2021-01-07",
+    "type": "non-fiction",
+    "pages": 272
+  },
+  {
+    "id": "46",
+    "title": "Small Favour",
+    "authorFirstName": "Jim",
+    "authorLastName": "Butcher",
+    "finished": "2020-01-15",
+    "type": "fiction",
+    "pages": 437
+  },
+  {
+    "id": "47",
+    "title": "Code: The Hidden Language of Computer Hardware and Software",
+    "authorFirstName": "Charles",
+    "authorLastName": "Petzold",
+    "finished": "2020-02-19",
+    "type": "non-fiction",
+    "pages": 434
+  },
+  {
+    "id": "48",
+    "title": "Utopia Avenue",
+    "authorFirstName": "David",
+    "authorLastName": "Mitchell",
+    "finished": "2020-02-28",
+    "type": "fiction",
+    "pages": 561
   }
 ]
