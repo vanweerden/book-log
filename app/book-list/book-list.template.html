@@ -1,15 +1,36 @@
 <ul class="header">
   <li class="clickable field wide-field" ng-click="$ctrl.setOrderProp('title')">
     Title
+    <span ng-show="$ctrl.orderProp == 'title' || $ctrl.orderProp == '-title'">
+      {{$ctrl.arrow}}
+    </span>
   </li>
   <li class="clickable field" ng-click="$ctrl.setOrderProp('authorLastName')">
-    Author
+    Author<span
+      ng-show="$ctrl.orderProp == 'authorLastName' || $ctrl.orderProp == '-authorLastName'"
+    >
+      {{$ctrl.arrow}}</span
+    >
   </li>
   <li class="clickable field" ng-click="$ctrl.setOrderProp('finished')">
-    Date Finished
+    Date Finished<span
+      ng-show="$ctrl.orderProp == 'finished' || $ctrl.orderProp == '-finished'"
+    >
+      {{$ctrl.arrow}}</span
+    >
   </li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('type')">Type</li>
-  <li class="clickable field" ng-click="$ctrl.setOrderProp('pages')">Pages</li>
+  <li class="clickable field" ng-click="$ctrl.setOrderProp('type')">
+    Type<span ng-show="$ctrl.orderProp == 'type' || $ctrl.orderProp == '-type'">
+      {{$ctrl.arrow}}</span
+    >
+  </li>
+  <li class="clickable field" ng-click="$ctrl.setOrderProp('pages')">
+    Pages<span
+      ng-show="$ctrl.orderProp == 'pages' || $ctrl.orderProp == '-pages'"
+    >
+      {{$ctrl.arrow}}</span
+    >
+  </li>
 </ul>
 <ul class="books">
   <li ng-repeat="book in $ctrl.books | orderBy:$ctrl.orderProp" class="book">
